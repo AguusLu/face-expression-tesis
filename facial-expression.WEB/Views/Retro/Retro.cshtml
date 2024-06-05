@@ -1,0 +1,81 @@
+﻿@{
+    ViewData["Title"] = "Retro";
+}
+
+<div class="mb-3">
+    <form id="formulario" method="post" enctype="multipart/form-data">
+        <input id="miInputFile" class="form-control d-none" type="file" name="imageFile" onchange="previewImage(event)" />
+    </form>
+</div>
+<div class="row mb-2">
+    <div class="col-sm" style="padding: 0">
+        <button class="btn btn-success" onclick="startCamera()">Iniciar cámara</button>
+    </div>
+    <div class="col-sm" style="padding: 0;">
+        <button type="button" class="btn btn-success" onclick="snap()">Capturar</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <!-- Aquí mostramos la imagen original -->
+        <img id="originalImage" src="../Data/example-02.jpg" style="width: 100%;" />
+    </div>
+    <div class="col-sm-6">
+        <!-- Aquí mostramos la imagen capturada del usuario -->
+        <img id="capturedUserImage" src="#" style="width: 100%; display: none;" />
+    </div>
+</div>
+<script>
+    function sendForm(imageData) {
+        $.ajax({
+            url: '/Retro/Camara',
+            type: 'POST',
+            data: { imageData: imageData },
+            success: function (result) {
+                // Maneja la respuesta del servidor si es necesario
+                console.log(result);
+            }
+        });
+    }
+
+    function startCamera() {
+        if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+            navigator.mediaDevices.getUserMedia({ video: true })
+                .then(function (stream) {
+                    var videoElement = document.getElementById("video");
+                    videoElement.srcObject = stream;
+                    // Espejar el video horizontalmente
+                    videoElement.style.transform = 'scaleX(-1)';
+
+                    // Capturar automáticamente la imagen después de 20 segundos
+                    setTimeout(function () {
+                        snap();
+                    }, 20000); // 20000 milisegundos = 20 segundos
+                })
+                .catch(function (error) {
+                    console.error("Error accessing camera:", error);
+                });
+        }
+    }
+
+    function snap() {
+        var videoElement = document.getElementById("video");
+        var userImageElement = document.getElementById("capturedUserImage");
+
+        var canvasElement = document.createElement("canvas");
+        var context = canvasElement.getContext("2d");
+        canvasElement.width = videoElement.videoWidth;
+        canvasElement.height = videoElement.videoHeight;
+        context.drawImage(videoElement, 0, 0, canvasElement.width, canvasElement.height);
+
+        // Convertir el canvas a imagen y mostrarla en el lado del usuario
+        userImageElement.src = canvasElement.toDataURL();
+        userImageElement.style.display = 'block';
+
+        // Obtener los datos de la imagen capturada del usuario (opcional)
+        var imageData = canvasElement.toDataURL();
+
+        // Envía los datos al servidor (opcional)
+        sendForm(imageData);
+    }
+</script>

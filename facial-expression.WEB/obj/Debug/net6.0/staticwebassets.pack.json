@@ -1,0 +1,629 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\facial-expression.WEB.bundle.scp.css",
+      "PackagePath": "staticwebassets\\facial-expression.WEB.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad0.jpg",
+      "PackagePath": "staticwebassets\\images\\Felicidad0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad1.jpg",
+      "PackagePath": "staticwebassets\\images\\Felicidad1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad13.jpg",
+      "PackagePath": "staticwebassets\\images\\Felicidad13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad18.jpg",
+      "PackagePath": "staticwebassets\\images\\Felicidad18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad2.jpg",
+      "PackagePath": "staticwebassets\\images\\Felicidad2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad20.jpg",
+      "PackagePath": "staticwebassets\\images\\Felicidad20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad3.jpg",
+      "PackagePath": "staticwebassets\\images\\Felicidad3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad30.jpg",
+      "PackagePath": "staticwebassets\\images\\Felicidad30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad38.jpg",
+      "PackagePath": "staticwebassets\\images\\Felicidad38.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad39.jpg",
+      "PackagePath": "staticwebassets\\images\\Felicidad39.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad4.jpg",
+      "PackagePath": "staticwebassets\\images\\Felicidad4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad42.jpg",
+      "PackagePath": "staticwebassets\\images\\Felicidad42.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad45.jpg",
+      "PackagePath": "staticwebassets\\images\\Felicidad45.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad5.jpg",
+      "PackagePath": "staticwebassets\\images\\Felicidad5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad6.jpg",
+      "PackagePath": "staticwebassets\\images\\Felicidad6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad7.jpg",
+      "PackagePath": "staticwebassets\\images\\Felicidad7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa0.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa1.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa10.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa11.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa12.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa13.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa14.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa15.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa16.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa17.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa18.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa19.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa2.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa20.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa21.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa22.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa23.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa24.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa25.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa3.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa34.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa34.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa35.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa35.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa37.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa37.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa4.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa41.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa41.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa5.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa6.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa7.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa8.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa9.jpg",
+      "PackagePath": "staticwebassets\\images\\Sorpresa9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza0.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza1.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza10.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza11.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza12.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza13.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza14.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza15.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza16.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza17.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza18.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza19.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza2.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza20.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza21.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza22.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza23.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza24.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza25.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza26.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza27.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza28.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza29.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza3.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza30.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza31.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza32.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza32.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza33.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza34.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza34.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza35.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza35.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza36.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza36.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza37.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza37.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza38.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza38.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza39.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza39.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza4.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza40.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza40.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza41.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza41.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza42.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza42.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza43.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza43.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza44.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza44.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza5.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza6.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza7.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza8.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza9.jpg",
+      "PackagePath": "staticwebassets\\images\\Tristeza9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.facial-expression.WEB.props",
+      "PackagePath": "build\\facial-expression.WEB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.facial-expression.WEB.props",
+      "PackagePath": "buildMultiTargeting\\facial-expression.WEB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.facial-expression.WEB.props",
+      "PackagePath": "buildTransitive\\facial-expression.WEB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.facial-expression.WEB.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

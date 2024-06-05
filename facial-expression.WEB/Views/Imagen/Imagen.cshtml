@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Imagen";
+}
+<div class="mb-3">
+    <form id="formulario" method="post" enctype="multipart/form-data">
+        <div class="form-group mb-3 w-50">
+            <label for="formFileDisabled" class="form-label">Importe una imagen</label>
+            <input id="miInputFile" class="form-control" type="file" name="imageFile" />
+        </div>
+        <img id="previewImage" src="#" alt="Vista previa de la imagen" style="display: none;" height="480" />
+        <h2 id="prediccion" style="display: none;">Predicción: <span id="resultado"></span></h2>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        function sendForm() {
+            var count = 3;
+            $('#resultado').html('cargando...');
+            const interval = setInterval(frame, 500);
+            function frame() {
+                if (count++ !== 3) $('#resultado').append('.');
+                else {
+                    $('#resultado').html('cargando');
+                    count = 0;
+                }
+            }
+            var formData = new FormData($('form')[0]);
+            $.ajax({
+                url: 'camara/camara',
+                type: 'POST',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (result) {
+                    clearInterval(interval);
+                    $('#resultado').html(result);
+                    if (!result) $('#resultado').html('error');
+                }
+            });
+        }
+        var input = document.getElementById('miInputFile');
+        input.addEventListener('change', function() {
+            var preview = document.getElementById('previewImage');
+            var prediccion = document.getElementById('prediccion');
+            preview.src = URL.createObjectURL(this.files[0]);
+            preview.style.display = 'block';
+            prediccion.style.display = 'block';
+            sendForm();
+        });
+    </script>
+}

@@ -1,0 +1,40 @@
+﻿@model List<facial_expression.WEB.Models.Expresion>
+
+<table id="tablaExpresiones" class='table table-hover table-striped mb-5 tableForm' style="width: fit-content; margin: auto;">
+    <thead>
+        <tr class='text-center table-dark align-middle'>
+            <th scope='col'>Imagen</th>
+            <th scope='col' class="thtitle-clasificacion" style="cursor: pointer; user-select: none;">Clasificacion</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var imagen in Model)
+        {
+            <tr class='text-center align-middle trbody'>
+                <td id="imagen" style="width: fit-content;"><img height="240" alt="@imagen.nombreImagen" src="~/../images/@imagen.nombreImagen"></td>
+                <td id="clasificacion" style="width: 200px;">@imagen.clasificacion</td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section Scripts {
+    <script type="text/javascript">
+        $(document).ready(() => {
+            var ascendente = false;
+            $(document).on('click', '.thtitle-clasificacion', () => {
+                ordenar('#clasificacion');
+            });
+            const ordenar = value => {
+                var elementos = $('.trbody');
+                if (!ascendente) {
+                    ascendente = true;
+                    elementos.sort((a, b) => { return $(a).children(value).html().toLowerCase() > $(b).children(value).html().toLowerCase() });
+                } else {
+                    ascendente = false;
+                    elementos.sort((a, b) => { return $(a).children(value).html().toLowerCase() < $(b).children(value).html().toLowerCase() });
+                }
+                $('tbody').html(elementos);
+            };
+        });
+    </script>
+}
