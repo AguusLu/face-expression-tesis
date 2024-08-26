@@ -1,10 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
+﻿using facial_expression.WEB.Data;
+using facial_expression.WEB.Models;
+using Facial_expression_WEB;
+using Microsoft.AspNetCore.Mvc;
 using System.IO;
 using System.Threading.Tasks;
-using facial_expression.WEB.Data;
-using facial_expression.WEB.Models;
-using Microsoft.Extensions.Logging;
 
 namespace facial_expression.WEB.Controllers
 {
@@ -20,37 +19,66 @@ namespace facial_expression.WEB.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
         public IActionResult Retro()
         {
             return View();
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Camara(string imageData)
+        public async Task<IActionResult> CaptureImage(IFormFile imageFile)
         {
-            if (!string.IsNullOrEmpty(imageData))
+            if (imageFile != null && imageFile.Length > 0)
             {
-                // Obtener el contenido de la imagen en bytes
-                var base64Data = imageData.Split(',')[1];
-                var bytes = Convert.FromBase64String(base64Data);
-
-                // Guardar la imagen en el servidor
+                // Save the image to a temporary path
                 var imagePath = $"wwwroot/images/user_image_{DateTime.Now.Ticks}.jpg";
-                await System.IO.File.WriteAllBytesAsync(imagePath, bytes);
+                using (var stream = new FileStream(imagePath, FileMode.Create))
+                {
+                    await imageFile.CopyToAsync(stream);
+                }
 
-                // Realizar cualquier otro procesamiento necesario aquí, como el análisis de expresiones faciales
+                // Load the image for prediction
+                var imageBytes = await System.IO.File.ReadAllBytesAsync(imagePath);
+                MLModel.ModelInput sampleData = new MLModel.ModelInput()
+                {
+                    ImageSource = imageBytes,
+                };
 
-                // Log
-                _logger.LogInformation("Imagen capturada del usuario guardada en: {ImagePath}", imagePath);
+                // Predict emotion
+                var result = MLModel.Predict(sampleData);
 
-                // Devuelve una respuesta si es necesario
-                return Content("Imagen capturada del usuario guardada con éxito en el servidor.");
+                // Save image with predicted label
+                bool saved = false;
+                while (!saved)
+                {
+                    var newPath = $"wwwroot/images/{result.PredictedLabel + count}.jpg";
+                    if (System.IO.File.Exists(newPath))
+                    {
+                        count++;
+                    }
+                    else
+                    {
+                        System.IO.File.Move(imagePath, newPath);
+                        count++;
+                        saved = true;
+                    }
+                }
+
+                // Save prediction and image info to database
+                var model = new Expresion
+                {
+                    ImageFile = imageFile,
+                    clasificacion = result.PredictedLabel,
+                    nombreImagen = $"{result.PredictedLabel + count}.jpg"
+                };
+
+                _db.Expression.Add(model);
+                await _db.SaveChangesAsync();
+
+                // Return the prediction result
+                return Content(result.PredictedLabel);
             }
 
-            // Si no se proporcionó ninguna imagen, devuelve un error
-            return BadRequest("No se proporcionó ninguna imagen.");
+            return BadRequest("No image file provided.");
         }
     }
 }

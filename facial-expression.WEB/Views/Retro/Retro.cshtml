@@ -2,80 +2,182 @@
     ViewData["Title"] = "Retro";
 }
 
-<div class="mb-3">
-    <form id="formulario" method="post" enctype="multipart/form-data">
-        <input id="miInputFile" class="form-control d-none" type="file" name="imageFile" onchange="previewImage(event)" />
-    </form>
+<div class="container">
+    <div class="image-container">
+        <img id="originalImage" src="~/images/example-02.jpg" alt="Original Image"/>
+    </div>
+    <div class="video-container">
+        <video id="video" autoplay muted></video>
+        <img id="capturedUserImage" src="#" alt="Captured Image" style="display: none;"/>
+    </div>
+    <h2 id="prediccion" style="display: none;">Predicción: <span id="resultado"></span></h2>
 </div>
-<div class="row mb-2">
-    <div class="col-sm" style="padding: 0">
-        <button class="btn btn-success" onclick="startCamera()">Iniciar cámara</button>
-    </div>
-    <div class="col-sm" style="padding: 0;">
-        <button type="button" class="btn btn-success" onclick="snap()">Capturar</button>
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm-6">
-        <!-- Aquí mostramos la imagen original -->
-        <img id="originalImage" src="../Data/example-02.jpg" style="width: 100%;" />
-    </div>
-    <div class="col-sm-6">
-        <!-- Aquí mostramos la imagen capturada del usuario -->
-        <img id="capturedUserImage" src="#" style="width: 100%; display: none;" />
-    </div>
-</div>
-<script>
-    function sendForm(imageData) {
-        $.ajax({
-            url: '/Retro/Camara',
-            type: 'POST',
-            data: { imageData: imageData },
-            success: function (result) {
-                // Maneja la respuesta del servidor si es necesario
-                console.log(result);
-            }
-        });
-    }
 
-    function startCamera() {
-        if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-            navigator.mediaDevices.getUserMedia({ video: true })
-                .then(function (stream) {
-                    var videoElement = document.getElementById("video");
-                    videoElement.srcObject = stream;
-                    // Espejar el video horizontalmente
-                    videoElement.style.transform = 'scaleX(-1)';
 
-                    // Capturar automáticamente la imagen después de 20 segundos
-                    setTimeout(function () {
-                        snap();
-                    }, 20000); // 20000 milisegundos = 20 segundos
-                })
-                .catch(function (error) {
-                    console.error("Error accessing camera:", error);
-                });
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/@@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@@tensorflow-models/coco-ssd"></script>
+
+    <script>
+        const videoWidth = 640;
+        const videoHeight = 480;
+        let model;
+        let videoElement;
+
+        async function loadModel() {
+            model = await cocoSsd.load();
+            console.log("Modelo coco-ssd cargado exitosamente.");
         }
+
+        async function detectObjects() {
+            const predictions = await model.detect(videoElement);
+            console.log(predictions); // Mostrar todas las predicciones en la consola
+            if (isPersonDetected(predictions)) {
+                snap();
+            }
+            requestAnimationFrame(detectObjects); // Continuar detectando objetos en cada frame
+        }
+
+        function isPersonDetected(predictions) {
+            const personDetected = predictions.some(prediction => prediction.class === "person");
+            if (personDetected) {
+                console.log("Persona detectada");
+            } else {
+                console.log("No se detectó ninguna persona");
+            }
+            return personDetected;
+        }
+
+        function sendForm(imageData) {
+            $.ajax({
+                url: '/Retro/CaptureImage',
+                type: 'POST',
+                contentType: 'application/json',  // Indica que los datos están en formato JSON
+                data: JSON.stringify({ imageData: imageData }),  // Convierte los datos en un JSON string
+                success: function (result) {
+                    console.log("Resultado de la predicción recibido del servidor:", result);
+                    displayPrediction(result);
+                },
+                error: function (xhr, status, error) {
+                    console.error("Error al enviar los datos de la imagen:", error);
+                }
+            });
+        }
+
+        function startCamera() {
+            videoElement = document.getElementById("video");
+            if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                navigator.mediaDevices.getUserMedia({ video: { width: videoWidth, height: videoHeight } })
+                    .then(function (stream) {
+                        videoElement.srcObject = stream;
+                        videoElement.style.width = videoWidth + 'px';
+                        videoElement.style.height = videoHeight + 'px';
+                        videoElement.onloadedmetadata = function () {
+                            videoElement.play();
+                            console.log("Video en reproducción");
+                            detectObjects(); // Comenzar la detección de objetos
+                        };
+                    })
+                    .catch(function (error) {
+                        console.error("Error al acceder a la cámara:", error);
+                    });
+            } else {
+                console.error("getUserMedia no es compatible en este navegador.");
+            }
+        }
+
+        function snap() {
+            var userImageElement = document.getElementById("capturedUserImage");
+
+            if (videoElement.videoWidth > 0 && videoElement.videoHeight > 0) {
+                var canvasElement = document.createElement("canvas");
+                var context = canvasElement.getContext("2d");
+
+                canvasElement.width = videoWidth;
+                canvasElement.height = videoHeight;
+
+                context.drawImage(videoElement, 0, 0, canvasElement.width, canvasElement.height);
+
+                var imageData = canvasElement.toDataURL('image/jpeg');
+
+                userImageElement.src = imageData;
+                userImageElement.style.width = videoWidth + 'px';
+                userImageElement.style.height = videoHeight + 'px';
+                userImageElement.style.display = 'block';
+
+                sendForm(imageData);
+
+                setTimeout(function () {
+                    userImageElement.style.display = 'none';
+                    if (videoElement.srcObject) {
+                        videoElement.play();
+                    }
+                }, 5000); // 5000 milisegundos = 5 segundos
+            } else {
+                console.error("Las dimensiones del elemento de video son cero. Verifica si la transmisión de la cámara se cargó correctamente.");
+            }
+        }
+
+        function startPeriodicCapture() {
+            setInterval(function () {
+                snap(); // Capturar imagen cada 10 segundos
+            }, 10000); // 10000 milisegundos = 10 segundos
+        }
+
+        function displayPrediction(prediction) {
+            var predElement = document.getElementById('prediction');
+            if (predElement) {
+                predElement.innerHTML = "Prediction: " + prediction;
+            } else {
+                console.error("Prediction element not found.");
+            }
+        }
+
+        window.addEventListener('load', function () {
+            loadModel().then(() => {
+                startCamera();
+                startPeriodicCapture(); // Iniciar la captura periódica
+            });
+        });
+    </script>
+}
+
+
+<style>
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
     }
 
-    function snap() {
-        var videoElement = document.getElementById("video");
-        var userImageElement = document.getElementById("capturedUserImage");
-
-        var canvasElement = document.createElement("canvas");
-        var context = canvasElement.getContext("2d");
-        canvasElement.width = videoElement.videoWidth;
-        canvasElement.height = videoElement.videoHeight;
-        context.drawImage(videoElement, 0, 0, canvasElement.width, canvasElement.height);
-
-        // Convertir el canvas a imagen y mostrarla en el lado del usuario
-        userImageElement.src = canvasElement.toDataURL();
-        userImageElement.style.display = 'block';
-
-        // Obtener los datos de la imagen capturada del usuario (opcional)
-        var imageData = canvasElement.toDataURL();
-
-        // Envía los datos al servidor (opcional)
-        sendForm(imageData);
+    .image-container,
+    .video-container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-</script>
+
+        .image-container img,
+        .video-container video,
+        .video-container img {
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+    .video-container {
+        position: relative;
+    }
+
+        .video-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+        }
+</style>

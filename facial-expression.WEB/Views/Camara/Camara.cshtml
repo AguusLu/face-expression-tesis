@@ -29,8 +29,6 @@
     </div>
 </div>
 
-
-
 @section Scripts {
     <script>
         function sendForm() {
@@ -46,7 +44,7 @@
             }
             var formData = new FormData($('form')[0]);
             $.ajax({
-                url: 'camara/camara',
+                url: 'retro/camara',
                 type: 'POST',
                 data: formData,
                 contentType: false,

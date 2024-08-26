@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WVdbwQfcloNNUjzNt2SpJndQAiATZM8cGRBSmwRnyH4=",
+  "Hash": "m96fPlx2Hr5nb08RlM86s2Y5JU850E77Do/568gqLv8=",
   "Source": "facial-expression.WEB",
   "BasePath": "_content/facial-expression.WEB",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "facial-expression.WEB\\wwwroot",
       "Source": "facial-expression.WEB",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\obj\\Debug\\net6.0\\scopedcss\\bundle\\facial-expression.WEB.styles.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\obj\\Debug\\net6.0\\scopedcss\\bundle\\facial-expression.WEB.styles.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "facial-expression.WEB.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\obj\\Debug\\net6.0\\scopedcss\\bundle\\facial-expression.WEB.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\obj\\Debug\\net6.0\\scopedcss\\bundle\\facial-expression.WEB.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\facial-expression.WEB.bundle.scp.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\facial-expression.WEB.bundle.scp.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "facial-expression.WEB.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\facial-expression.WEB.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\facial-expression.WEB.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\css\\site.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\favicon.ico",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +93,29 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad0.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\example-02.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
+      "BasePath": "_content/facial-expression.WEB",
+      "RelativePath": "images/example-02.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\example-02.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Felicidad0.jpg",
+      "SourceId": "facial-expression.WEB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Felicidad0.jpg",
       "AssetKind": "All",
@@ -112,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Felicidad0.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad1.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Felicidad1.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Felicidad1.jpg",
       "AssetKind": "All",
@@ -131,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Felicidad1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad13.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Felicidad13.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Felicidad13.jpg",
       "AssetKind": "All",
@@ -150,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Felicidad13.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad18.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Felicidad18.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Felicidad18.jpg",
       "AssetKind": "All",
@@ -169,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Felicidad18.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad2.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Felicidad2.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Felicidad2.jpg",
       "AssetKind": "All",
@@ -188,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Felicidad2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad20.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Felicidad20.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Felicidad20.jpg",
       "AssetKind": "All",
@@ -207,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Felicidad20.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad3.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Felicidad3.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Felicidad3.jpg",
       "AssetKind": "All",
@@ -226,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Felicidad3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad30.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Felicidad30.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Felicidad30.jpg",
       "AssetKind": "All",
@@ -245,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Felicidad30.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad38.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Felicidad38.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Felicidad38.jpg",
       "AssetKind": "All",
@@ -264,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Felicidad38.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad39.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Felicidad39.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Felicidad39.jpg",
       "AssetKind": "All",
@@ -283,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Felicidad39.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad4.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Felicidad4.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Felicidad4.jpg",
       "AssetKind": "All",
@@ -302,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Felicidad4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad42.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Felicidad42.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Felicidad42.jpg",
       "AssetKind": "All",
@@ -321,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Felicidad42.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad45.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Felicidad45.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Felicidad45.jpg",
       "AssetKind": "All",
@@ -340,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Felicidad45.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad5.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Felicidad5.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Felicidad5.jpg",
       "AssetKind": "All",
@@ -359,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Felicidad5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad6.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Felicidad6.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Felicidad6.jpg",
       "AssetKind": "All",
@@ -378,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Felicidad6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Felicidad7.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Felicidad7.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Felicidad7.jpg",
       "AssetKind": "All",
@@ -397,10 +416,29 @@
       "OriginalItemSpec": "wwwroot\\images\\Felicidad7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa0.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Felicidad8.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
+      "BasePath": "_content/facial-expression.WEB",
+      "RelativePath": "images/Felicidad8.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Felicidad8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa0.jpg",
+      "SourceId": "facial-expression.WEB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa0.jpg",
       "AssetKind": "All",
@@ -416,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa0.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa1.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa1.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa1.jpg",
       "AssetKind": "All",
@@ -435,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa10.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa10.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa10.jpg",
       "AssetKind": "All",
@@ -454,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa10.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa11.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa11.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa11.jpg",
       "AssetKind": "All",
@@ -473,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa11.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa12.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa12.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa12.jpg",
       "AssetKind": "All",
@@ -492,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa12.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa13.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa13.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa13.jpg",
       "AssetKind": "All",
@@ -511,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa13.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa14.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa14.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa14.jpg",
       "AssetKind": "All",
@@ -530,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa14.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa15.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa15.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa15.jpg",
       "AssetKind": "All",
@@ -549,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa15.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa16.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa16.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa16.jpg",
       "AssetKind": "All",
@@ -568,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa16.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa17.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa17.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa17.jpg",
       "AssetKind": "All",
@@ -587,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa17.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa18.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa18.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa18.jpg",
       "AssetKind": "All",
@@ -606,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa18.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa19.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa19.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa19.jpg",
       "AssetKind": "All",
@@ -625,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa19.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa2.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa2.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa2.jpg",
       "AssetKind": "All",
@@ -644,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa20.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa20.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa20.jpg",
       "AssetKind": "All",
@@ -663,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa20.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa21.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa21.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa21.jpg",
       "AssetKind": "All",
@@ -682,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa21.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa22.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa22.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa22.jpg",
       "AssetKind": "All",
@@ -701,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa22.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa23.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa23.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa23.jpg",
       "AssetKind": "All",
@@ -720,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa23.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa24.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa24.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa24.jpg",
       "AssetKind": "All",
@@ -739,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa24.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa25.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa25.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa25.jpg",
       "AssetKind": "All",
@@ -758,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa25.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa3.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa3.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa3.jpg",
       "AssetKind": "All",
@@ -777,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa34.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa34.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa34.jpg",
       "AssetKind": "All",
@@ -796,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa34.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa35.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa35.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa35.jpg",
       "AssetKind": "All",
@@ -815,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa35.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa37.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa37.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa37.jpg",
       "AssetKind": "All",
@@ -834,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa37.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa4.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa4.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa4.jpg",
       "AssetKind": "All",
@@ -853,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa41.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa41.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa41.jpg",
       "AssetKind": "All",
@@ -872,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa41.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa5.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa5.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa5.jpg",
       "AssetKind": "All",
@@ -891,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa6.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa6.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa6.jpg",
       "AssetKind": "All",
@@ -910,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa7.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa7.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa7.jpg",
       "AssetKind": "All",
@@ -929,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa8.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa8.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa8.jpg",
       "AssetKind": "All",
@@ -948,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Sorpresa9.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Sorpresa9.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Sorpresa9.jpg",
       "AssetKind": "All",
@@ -967,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Sorpresa9.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza0.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza0.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza0.jpg",
       "AssetKind": "All",
@@ -986,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza0.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza1.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza1.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza1.jpg",
       "AssetKind": "All",
@@ -1005,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza10.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza10.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza10.jpg",
       "AssetKind": "All",
@@ -1024,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza10.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza11.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza11.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza11.jpg",
       "AssetKind": "All",
@@ -1043,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza11.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza12.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza12.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza12.jpg",
       "AssetKind": "All",
@@ -1062,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza12.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza13.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza13.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza13.jpg",
       "AssetKind": "All",
@@ -1081,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza13.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza14.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza14.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza14.jpg",
       "AssetKind": "All",
@@ -1100,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza14.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza15.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza15.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza15.jpg",
       "AssetKind": "All",
@@ -1119,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza15.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza16.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza16.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza16.jpg",
       "AssetKind": "All",
@@ -1138,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza16.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza17.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza17.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza17.jpg",
       "AssetKind": "All",
@@ -1157,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza17.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza18.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza18.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza18.jpg",
       "AssetKind": "All",
@@ -1176,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza18.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza19.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza19.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza19.jpg",
       "AssetKind": "All",
@@ -1195,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza19.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza2.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza2.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza2.jpg",
       "AssetKind": "All",
@@ -1214,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza20.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza20.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza20.jpg",
       "AssetKind": "All",
@@ -1233,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza20.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza21.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza21.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza21.jpg",
       "AssetKind": "All",
@@ -1252,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza21.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza22.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza22.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza22.jpg",
       "AssetKind": "All",
@@ -1271,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza22.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza23.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza23.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza23.jpg",
       "AssetKind": "All",
@@ -1290,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza23.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza24.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza24.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza24.jpg",
       "AssetKind": "All",
@@ -1309,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza24.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza25.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza25.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza25.jpg",
       "AssetKind": "All",
@@ -1328,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza25.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza26.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza26.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza26.jpg",
       "AssetKind": "All",
@@ -1347,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza26.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza27.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza27.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza27.jpg",
       "AssetKind": "All",
@@ -1366,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza27.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza28.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza28.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza28.jpg",
       "AssetKind": "All",
@@ -1385,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza28.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza29.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza29.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza29.jpg",
       "AssetKind": "All",
@@ -1404,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza29.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza3.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza3.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza3.jpg",
       "AssetKind": "All",
@@ -1423,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza30.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza30.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza30.jpg",
       "AssetKind": "All",
@@ -1442,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza30.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza31.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza31.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza31.jpg",
       "AssetKind": "All",
@@ -1461,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza31.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza32.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza32.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza32.jpg",
       "AssetKind": "All",
@@ -1480,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza32.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza33.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza33.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza33.jpg",
       "AssetKind": "All",
@@ -1499,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza33.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza34.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza34.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza34.jpg",
       "AssetKind": "All",
@@ -1518,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza34.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza35.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza35.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza35.jpg",
       "AssetKind": "All",
@@ -1537,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza35.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza36.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza36.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza36.jpg",
       "AssetKind": "All",
@@ -1556,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza36.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza37.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza37.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza37.jpg",
       "AssetKind": "All",
@@ -1575,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza37.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza38.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza38.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza38.jpg",
       "AssetKind": "All",
@@ -1594,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza38.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza39.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza39.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza39.jpg",
       "AssetKind": "All",
@@ -1613,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza39.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza4.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza4.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza4.jpg",
       "AssetKind": "All",
@@ -1632,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza40.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza40.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza40.jpg",
       "AssetKind": "All",
@@ -1651,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza40.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza41.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza41.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza41.jpg",
       "AssetKind": "All",
@@ -1670,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza41.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza42.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza42.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza42.jpg",
       "AssetKind": "All",
@@ -1689,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza42.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza43.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza43.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza43.jpg",
       "AssetKind": "All",
@@ -1708,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza43.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza44.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza44.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza44.jpg",
       "AssetKind": "All",
@@ -1727,10 +1765,105 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza44.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza5.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza45.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
+      "BasePath": "_content/facial-expression.WEB",
+      "RelativePath": "images/Tristeza45.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Tristeza45.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza46.jpg",
+      "SourceId": "facial-expression.WEB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
+      "BasePath": "_content/facial-expression.WEB",
+      "RelativePath": "images/Tristeza46.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Tristeza46.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza47.jpg",
+      "SourceId": "facial-expression.WEB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
+      "BasePath": "_content/facial-expression.WEB",
+      "RelativePath": "images/Tristeza47.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Tristeza47.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza48.jpg",
+      "SourceId": "facial-expression.WEB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
+      "BasePath": "_content/facial-expression.WEB",
+      "RelativePath": "images/Tristeza48.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Tristeza48.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza49.jpg",
+      "SourceId": "facial-expression.WEB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
+      "BasePath": "_content/facial-expression.WEB",
+      "RelativePath": "images/Tristeza49.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Tristeza49.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza5.jpg",
+      "SourceId": "facial-expression.WEB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza5.jpg",
       "AssetKind": "All",
@@ -1746,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza6.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza6.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza6.jpg",
       "AssetKind": "All",
@@ -1765,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza7.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza7.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza7.jpg",
       "AssetKind": "All",
@@ -1784,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza8.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza8.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza8.jpg",
       "AssetKind": "All",
@@ -1803,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\images\\Tristeza9.jpg",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\images\\Tristeza9.jpg",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "images/Tristeza9.jpg",
       "AssetKind": "All",
@@ -1822,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tristeza9.jpg"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\js\\site.js",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1841,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1860,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1879,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1898,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1917,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1936,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1955,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1974,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1993,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2012,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2031,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2050,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2069,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2088,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2107,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2126,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2145,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2164,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2183,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2202,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2221,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2240,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2259,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2278,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2297,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2316,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2335,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2354,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2373,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2392,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2411,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2430,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2449,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2468,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2487,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2506,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2525,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2544,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2563,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2582,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2601,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2620,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2639,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2658,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2677,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2696,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2715,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2734,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2753,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2772,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2791,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2810,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2829,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2848,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2867,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2886,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2905,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "facial-expression.WEB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Usuario\\Source\\Repos\\face-expression\\facial-expression.WEB\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\",
       "BasePath": "_content/facial-expression.WEB",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
