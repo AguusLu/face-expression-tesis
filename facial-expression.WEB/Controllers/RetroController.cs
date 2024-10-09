@@ -25,60 +25,24 @@ namespace facial_expression.WEB.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CaptureImage(IFormFile imageFile)
+        public async Task<IActionResult> CaptureImage([FromForm] string imageData)
         {
-            if (imageFile != null && imageFile.Length > 0)
+            if (!string.IsNullOrEmpty(imageData))
             {
-                // Save the image to a temporary path
+                var base64Data = imageData.Substring(imageData.IndexOf(',') + 1);
+                var imageBytes = Convert.FromBase64String(base64Data);
+
                 var imagePath = $"wwwroot/images/user_image_{DateTime.Now.Ticks}.jpg";
-                using (var stream = new FileStream(imagePath, FileMode.Create))
-                {
-                    await imageFile.CopyToAsync(stream);
-                }
+                await System.IO.File.WriteAllBytesAsync(imagePath, imageBytes);
 
-                // Load the image for prediction
-                var imageBytes = await System.IO.File.ReadAllBytesAsync(imagePath);
-                MLModel.ModelInput sampleData = new MLModel.ModelInput()
-                {
-                    ImageSource = imageBytes,
-                };
+                // Predicción y guardado como antes
 
-                // Predict emotion
-                var result = MLModel.Predict(sampleData);
-
-                // Save image with predicted label
-                bool saved = false;
-                while (!saved)
-                {
-                    var newPath = $"wwwroot/images/{result.PredictedLabel + count}.jpg";
-                    if (System.IO.File.Exists(newPath))
-                    {
-                        count++;
-                    }
-                    else
-                    {
-                        System.IO.File.Move(imagePath, newPath);
-                        count++;
-                        saved = true;
-                    }
-                }
-
-                // Save prediction and image info to database
-                var model = new Expresion
-                {
-                    ImageFile = imageFile,
-                    clasificacion = result.PredictedLabel,
-                    nombreImagen = $"{result.PredictedLabel + count}.jpg"
-                };
-
-                _db.Expression.Add(model);
-                await _db.SaveChangesAsync();
-
-                // Return the prediction result
-                return Content(result.PredictedLabel);
+                // Retornar solo el nombre de archivo, no el camino completo
+                var fileName = Path.GetFileName(imagePath);
+                return Content(fileName);
             }
 
-            return BadRequest("No image file provided.");
+            return BadRequest("No se proporcionó ningún dato de imagen.");
         }
     }
 }

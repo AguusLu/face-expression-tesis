@@ -4,11 +4,11 @@
 
 <div class="container">
     <div class="image-container">
-        <img id="originalImage" src="~/images/example-02.jpg" alt="Original Image"/>
+        <img id="originalImage" src="~/images/example-02.jpg" alt="Original Image" />
     </div>
     <div class="video-container">
         <video id="video" autoplay muted></video>
-        <img id="capturedUserImage" src="#" alt="Captured Image" style="display: none;"/>
+        <img id="capturedUserImage" src="#" alt="Captured Image" style="display: none;" />
     </div>
     <h2 id="prediccion" style="display: none;">Predicción: <span id="resultado"></span></h2>
 </div>
@@ -23,6 +23,7 @@
         const videoHeight = 480;
         let model;
         let videoElement;
+        let lastCaptureTime = 0; // Variable para rastrear el tiempo de la última captura
 
         async function loadModel() {
             model = await cocoSsd.load();
@@ -32,9 +33,14 @@
         async function detectObjects() {
             const predictions = await model.detect(videoElement);
             console.log(predictions); // Mostrar todas las predicciones en la consola
-            if (isPersonDetected(predictions)) {
+
+            // Verificar si ha pasado al menos 10 segundos desde la última captura y si se detecta una persona
+            const currentTime = new Date().getTime();
+            if (isPersonDetected(predictions) && (currentTime - lastCaptureTime) >= 10000) {
                 snap();
+                lastCaptureTime = currentTime; // Actualizar el tiempo de la última captura
             }
+
             requestAnimationFrame(detectObjects); // Continuar detectando objetos en cada frame
         }
 
@@ -48,20 +54,68 @@
             return personDetected;
         }
 
+        function snap() {
+            var userImageElement = document.getElementById("capturedUserImage");
+
+            if (videoElement.videoWidth > 0 && videoElement.videoHeight > 0) {
+                var canvasElement = document.createElement("canvas");
+                var context = canvasElement.getContext("2d");
+
+                if (!context) {
+                    console.error("Error al obtener el contexto del canvas.");
+                    return;
+                }
+
+                canvasElement.width = videoWidth;
+                canvasElement.height = videoHeight;
+
+                context.drawImage(videoElement, 0, 0, canvasElement.width, canvasElement.height);
+
+                var imageData = canvasElement.toDataURL('image/jpeg');
+                sendForm(imageData);
+            } else {
+                console.error("Las dimensiones del elemento de video son cero. Verifica si la transmisión de la cámara se cargó correctamente.");
+            }
+        }
+
         function sendForm(imageData) {
+            var formData = new FormData();
+            formData.append("imageData", imageData);
+
             $.ajax({
                 url: '/Retro/CaptureImage',
                 type: 'POST',
-                contentType: 'application/json',  // Indica que los datos están en formato JSON
-                data: JSON.stringify({ imageData: imageData }),  // Convierte los datos en un JSON string
+                processData: false,
+                contentType: false,
+                data: formData,
                 success: function (result) {
                     console.log("Resultado de la predicción recibido del servidor:", result);
-                    displayPrediction(result);
+                    displayCapturedImage(result);
                 },
                 error: function (xhr, status, error) {
                     console.error("Error al enviar los datos de la imagen:", error);
                 }
             });
+        }
+
+        function displayCapturedImage(fileName) {
+            var userImageElement = document.getElementById("capturedUserImage");
+
+            // Establece el src de la imagen al archivo capturado
+            userImageElement.src = `/images/${fileName}`;
+            userImageElement.style.display = 'block';
+
+            console.log("Imagen capturada y mostrada en pantalla.");
+
+            // Mantiene la imagen visible durante 5 segundos antes de ocultarla
+            setTimeout(function () {
+                userImageElement.style.display = 'none';
+
+                // Vuelve a reproducir el video en tiempo real
+                if (videoElement.srcObject) {
+                    videoElement.play();
+                }
+            }, 5000); // 5000 milisegundos = 5 segundos
         }
 
         function startCamera() {
@@ -86,60 +140,13 @@
             }
         }
 
-        function snap() {
-            var userImageElement = document.getElementById("capturedUserImage");
-
-            if (videoElement.videoWidth > 0 && videoElement.videoHeight > 0) {
-                var canvasElement = document.createElement("canvas");
-                var context = canvasElement.getContext("2d");
-
-                canvasElement.width = videoWidth;
-                canvasElement.height = videoHeight;
-
-                context.drawImage(videoElement, 0, 0, canvasElement.width, canvasElement.height);
-
-                var imageData = canvasElement.toDataURL('image/jpeg');
-
-                userImageElement.src = imageData;
-                userImageElement.style.width = videoWidth + 'px';
-                userImageElement.style.height = videoHeight + 'px';
-                userImageElement.style.display = 'block';
-
-                sendForm(imageData);
-
-                setTimeout(function () {
-                    userImageElement.style.display = 'none';
-                    if (videoElement.srcObject) {
-                        videoElement.play();
-                    }
-                }, 5000); // 5000 milisegundos = 5 segundos
-            } else {
-                console.error("Las dimensiones del elemento de video son cero. Verifica si la transmisión de la cámara se cargó correctamente.");
-            }
-        }
-
-        function startPeriodicCapture() {
-            setInterval(function () {
-                snap(); // Capturar imagen cada 10 segundos
-            }, 10000); // 10000 milisegundos = 10 segundos
-        }
-
-        function displayPrediction(prediction) {
-            var predElement = document.getElementById('prediction');
-            if (predElement) {
-                predElement.innerHTML = "Prediction: " + prediction;
-            } else {
-                console.error("Prediction element not found.");
-            }
-        }
-
         window.addEventListener('load', function () {
             loadModel().then(() => {
                 startCamera();
-                startPeriodicCapture(); // Iniciar la captura periódica
             });
         });
     </script>
+
 }
 
 
