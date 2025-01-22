@@ -1,0 +1,19 @@
+body.background-index {
+  background-image: url("https://placehold.co/1920x1080/grey/grey");
+}
+
+body.background-graphic {
+  background-image: url("https://placehold.co/1920x1080/grey/grey");
+}
+
+main {
+  margin: 0 auto;
+}
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.navbar-brand {
+  border-right: 5px solid #FFF;
+}
