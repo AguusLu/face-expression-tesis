@@ -697,3 +697,5 @@ C:\Users\Usuario\source\repos\face-expression-tesis\facial-expression.WEB\obj\De
 C:\Users\Usuario\source\repos\face-expression-tesis\facial-expression.WEB\obj\Debug\net6.0\facial-expression.WEB.genruntimeconfig.cache
 C:\Users\Usuario\source\repos\face-expression-tesis\facial-expression.WEB\obj\Debug\net6.0\ref\facial-expression.WEB.dll
 C:\Users\Usuario\source\repos\face-expression-tesis\facial-expression.WEB\bin\Debug\net6.0\MLModel.mlnet
+C:\Users\Usuario\source\repos\face-expression-tesis\facial-expression.WEB\bin\Debug\net6.0\System.Numerics.Tensors.dll
+C:\Users\Usuario\source\repos\face-expression-tesis\facial-expression.WEB\bin\Debug\net6.0\runtimes\win-arm64\native\LdaNative.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("facial-expression.WEB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d667e96510b8ca838b4b95bc74322fb388565d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df2fb7a414e91e4a0c865ba9bd4239b381d3f157")]
 [assembly: System.Reflection.AssemblyProductAttribute("facial-expression.WEB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("facial-expression.WEB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -591,15 +591,15 @@
           }
         }
       },
-      "Microsoft.ML/2.0.0": {
+      "Microsoft.ML/3.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.ML.CpuMath": "2.0.0",
-          "Microsoft.ML.DataView": "2.0.0",
+          "Microsoft.ML.CpuMath": "3.0.1",
+          "Microsoft.ML.DataView": "3.0.1",
           "Newtonsoft.Json": "13.0.1",
           "System.CodeDom": "4.5.0",
           "System.Collections.Immutable": "1.5.0",
-          "System.Memory": "4.5.3",
+          "System.Memory": "4.5.5",
           "System.Reflection.Emit.Lightweight": "4.3.0",
           "System.Threading.Channels": "4.7.1"
         },
@@ -674,6 +674,10 @@
             "assetType": "native",
             "rid": "osx-x64"
           },
+          "runtimes/win-arm64/native/LdaNative.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
           "runtimes/win-x64/native/LdaNative.dll": {
             "assetType": "native",
             "rid": "win-x64"
@@ -684,15 +688,18 @@
           }
         }
       },
-      "Microsoft.ML.CpuMath/2.0.0": {
+      "Microsoft.ML.CpuMath/3.0.1": {
         "type": "package",
+        "dependencies": {
+          "System.Numerics.Tensors": "8.0.0"
+        },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.ML.CpuMath.dll": {
+          "lib/net6.0/Microsoft.ML.CpuMath.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.ML.CpuMath.dll": {
+          "lib/net6.0/Microsoft.ML.CpuMath.dll": {
             "related": ".xml"
           }
         },
@@ -700,41 +707,45 @@
           "build/netstandard2.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/linux-arm/nativeassets/netcoreapp3.1/_._": {
+          "runtimes/linux-arm/nativeassets/net6.0/_._": {
             "assetType": "native",
             "rid": "linux-arm"
           },
-          "runtimes/linux-arm64/nativeassets/netcoreapp3.1/_._": {
+          "runtimes/linux-arm64/nativeassets/net6.0/_._": {
             "assetType": "native",
             "rid": "linux-arm64"
           },
-          "runtimes/linux-x64/nativeassets/netcoreapp3.1/_._": {
+          "runtimes/linux-x64/nativeassets/net6.0/_._": {
             "assetType": "native",
             "rid": "linux-x64"
           },
-          "runtimes/osx-arm64/nativeassets/netcoreapp3.1/_._": {
+          "runtimes/osx-arm64/nativeassets/net6.0/_._": {
             "assetType": "native",
             "rid": "osx-arm64"
           },
-          "runtimes/osx-x64/nativeassets/netcoreapp3.1/_._": {
+          "runtimes/osx-x64/nativeassets/net6.0/_._": {
             "assetType": "native",
             "rid": "osx-x64"
           },
-          "runtimes/win-x64/nativeassets/netcoreapp3.1/_._": {
+          "runtimes/win-arm64/nativeassets/net6.0/_._": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/nativeassets/net6.0/_._": {
             "assetType": "native",
             "rid": "win-x64"
           },
-          "runtimes/win-x86/nativeassets/netcoreapp3.1/_._": {
+          "runtimes/win-x86/nativeassets/net6.0/_._": {
             "assetType": "native",
             "rid": "win-x86"
           }
         }
       },
-      "Microsoft.ML.DataView/2.0.0": {
+      "Microsoft.ML.DataView/3.0.1": {
         "type": "package",
         "dependencies": {
           "System.Collections.Immutable": "1.5.0",
-          "System.Memory": "4.5.3"
+          "System.Memory": "4.5.5"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.ML.DataView.dll": {
@@ -747,11 +758,11 @@
           }
         }
       },
-      "Microsoft.ML.TensorFlow/2.0.0": {
+      "Microsoft.ML.TensorFlow/3.0.1": {
         "type": "package",
         "dependencies": {
           "Google.Protobuf": "3.19.6",
-          "Microsoft.ML": "2.0.0",
+          "Microsoft.ML": "3.0.1",
           "System.IO.FileSystem.AccessControl": "4.5.0",
           "System.Security.Principal.Windows": "4.5.0",
           "TensorFlow.NET": "0.20.1"
@@ -767,10 +778,10 @@
           }
         }
       },
-      "Microsoft.ML.Vision/2.0.0": {
+      "Microsoft.ML.Vision/3.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.ML.TensorFlow": "2.0.0"
+          "Microsoft.ML.TensorFlow": "3.0.1"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.ML.Vision.dll": {
@@ -1108,7 +1119,7 @@
           }
         }
       },
-      "System.Memory/4.5.4": {
+      "System.Memory/4.5.5": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.1/_._": {}
@@ -1132,6 +1143,22 @@
           "lib/netstandard2.0/System.Memory.Data.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.Numerics.Tensors/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Numerics.Tensors.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Numerics.Tensors.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -2388,10 +2415,10 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
-    "Microsoft.ML/2.0.0": {
-      "sha512": "bUU+TwpgEAQamvst0XJ7xnONHPGfbJXqorvAJ1onv5g6jF+Yq10oLWPhn74SJsX/WjYbQSkKqr/g7K75oIDpaQ==",
+    "Microsoft.ML/3.0.1": {
+      "sha512": "AE4DFwsDNVM5+2RVH3X9mRsqPSs+DrEd7TVA5TyLxPEerQC8wl5YTVQOVMsWCp2AroWGXEIny8xyXdOXfC+9BA==",
       "type": "package",
-      "path": "microsoft.ml/2.0.0",
+      "path": "microsoft.ml/3.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2414,7 +2441,7 @@
         "lib/netstandard2.0/Microsoft.ML.Transforms.xml",
         "lib/netstandard2.0/Microsoft.ML.dll",
         "lib/netstandard2.0/Microsoft.ML.xml",
-        "microsoft.ml.2.0.0.nupkg.sha512",
+        "microsoft.ml.3.0.1.nupkg.sha512",
         "microsoft.ml.nuspec",
         "mlnetlogo.png",
         "runtimes/linux-arm/native/libLdaNative.so",
@@ -2422,44 +2449,46 @@
         "runtimes/linux-x64/native/libLdaNative.so",
         "runtimes/osx-arm64/native/libLdaNative.dylib",
         "runtimes/osx-x64/native/libLdaNative.dylib",
+        "runtimes/win-arm64/native/LdaNative.dll",
         "runtimes/win-x64/native/LdaNative.dll",
         "runtimes/win-x86/native/LdaNative.dll"
       ]
     },
-    "Microsoft.ML.CpuMath/2.0.0": {
-      "sha512": "O2hIWMPqGwz4OS+Sf4fZ3fjIypRmh49GAMBSDCCAfhSY+ZmXqcYDNGS++f322tDokWgXGErp61MgORfU/5RA6g==",
+    "Microsoft.ML.CpuMath/3.0.1": {
+      "sha512": "uVDD37oZMzPOtSpiACtVSOin7++4qohkAhsMO2l+90AToNPjatKTd6XiJoVI3+k7gxnP6UL7WJSafWOq4/s2KQ==",
       "type": "package",
-      "path": "microsoft.ml.cpumath/2.0.0",
+      "path": "microsoft.ml.cpumath/3.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/Microsoft.ML.CpuMath.props",
-        "lib/netcoreapp3.1/Microsoft.ML.CpuMath.dll",
-        "lib/netcoreapp3.1/Microsoft.ML.CpuMath.xml",
+        "lib/net6.0/Microsoft.ML.CpuMath.dll",
+        "lib/net6.0/Microsoft.ML.CpuMath.xml",
         "lib/netstandard2.0/Microsoft.ML.CpuMath.dll",
         "lib/netstandard2.0/Microsoft.ML.CpuMath.xml",
-        "microsoft.ml.cpumath.2.0.0.nupkg.sha512",
+        "microsoft.ml.cpumath.3.0.1.nupkg.sha512",
         "microsoft.ml.cpumath.nuspec",
         "mlnetlogo.png",
-        "runtimes/linux-arm/nativeassets/netcoreapp3.1/_._",
-        "runtimes/linux-arm64/nativeassets/netcoreapp3.1/_._",
-        "runtimes/linux-x64/nativeassets/netcoreapp3.1/_._",
+        "runtimes/linux-arm/nativeassets/net6.0/_._",
+        "runtimes/linux-arm64/nativeassets/net6.0/_._",
+        "runtimes/linux-x64/nativeassets/net6.0/_._",
         "runtimes/linux-x64/nativeassets/netstandard2.0/libCpuMathNative.so",
-        "runtimes/osx-arm64/nativeassets/netcoreapp3.1/_._",
-        "runtimes/osx-x64/nativeassets/netcoreapp3.1/_._",
+        "runtimes/osx-arm64/nativeassets/net6.0/_._",
+        "runtimes/osx-x64/nativeassets/net6.0/_._",
         "runtimes/osx-x64/nativeassets/netstandard2.0/libCpuMathNative.dylib",
-        "runtimes/win-x64/nativeassets/netcoreapp3.1/_._",
+        "runtimes/win-arm64/nativeassets/net6.0/_._",
+        "runtimes/win-x64/nativeassets/net6.0/_._",
         "runtimes/win-x64/nativeassets/netstandard2.0/CpuMathNative.dll",
-        "runtimes/win-x86/nativeassets/netcoreapp3.1/_._",
+        "runtimes/win-x86/nativeassets/net6.0/_._",
         "runtimes/win-x86/nativeassets/netstandard2.0/CpuMathNative.dll"
       ]
     },
-    "Microsoft.ML.DataView/2.0.0": {
-      "sha512": "Czgi6Oh1NNOHKR+TQuxWmhNHZsoN3QbZ8GqMvYEXcxVF1lZOQmk9gM3qPmc3vfC8feheUjmyKERYz2fVC0GHaQ==",
+    "Microsoft.ML.DataView/3.0.1": {
+      "sha512": "mkZt1r6Nx5CAoD3klhC7VMQFzwWMHHjoYpv3X9u+GMvTMbSRaDdiA88HUoOzT7kCeq4/L1nKctmrByhLK28Xjw==",
       "type": "package",
-      "path": "microsoft.ml.dataview/2.0.0",
+      "path": "microsoft.ml.dataview/3.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2467,15 +2496,15 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard2.0/Microsoft.ML.DataView.dll",
         "lib/netstandard2.0/Microsoft.ML.DataView.xml",
-        "microsoft.ml.dataview.2.0.0.nupkg.sha512",
+        "microsoft.ml.dataview.3.0.1.nupkg.sha512",
         "microsoft.ml.dataview.nuspec",
         "mlnetlogo.png"
       ]
     },
-    "Microsoft.ML.TensorFlow/2.0.0": {
-      "sha512": "YOmKU8h7mbqsnuE/EZhjQ9ZFhBrE5vOO+KntqYtV/XuNBTIXsdfHrtveNoAKYkugDVBRfoUd5Za8/MFxxBklpw==",
+    "Microsoft.ML.TensorFlow/3.0.1": {
+      "sha512": "cB5/b3xSUVpW5PxbocrZyFmXeATJ6PRmFTxbaT/AT5zI2OuLdKrJZN1GxKbZcoUSetnQtft7uv2SoEglAs14tw==",
       "type": "package",
-      "path": "microsoft.ml.tensorflow/2.0.0",
+      "path": "microsoft.ml.tensorflow/3.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2483,15 +2512,15 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard2.0/Microsoft.ML.TensorFlow.dll",
         "lib/netstandard2.0/Microsoft.ML.TensorFlow.xml",
-        "microsoft.ml.tensorflow.2.0.0.nupkg.sha512",
+        "microsoft.ml.tensorflow.3.0.1.nupkg.sha512",
         "microsoft.ml.tensorflow.nuspec",
         "mlnetlogo.png"
       ]
     },
-    "Microsoft.ML.Vision/2.0.0": {
-      "sha512": "W4hk+RKLNSTDCoY3pGt9C3otAu8nDD+ODO2+tiDG7NFiQAZud43onCQ8UAptmrU4ysYw18ogRBdnaSR0S3/WqA==",
+    "Microsoft.ML.Vision/3.0.1": {
+      "sha512": "mktiZ7oX8MyEZOj29dUWwniqM7Z0fExTu+CM7e4iccL8WIpl6HVhP3hm8euQIfZ4ffPGLvWC/UKgO9VoFNR0XA==",
       "type": "package",
-      "path": "microsoft.ml.vision/2.0.0",
+      "path": "microsoft.ml.vision/3.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2499,7 +2528,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard2.0/Microsoft.ML.Vision.dll",
         "lib/netstandard2.0/Microsoft.ML.Vision.xml",
-        "microsoft.ml.vision.2.0.0.nupkg.sha512",
+        "microsoft.ml.vision.3.0.1.nupkg.sha512",
         "microsoft.ml.vision.nuspec",
         "mlnetlogo.png"
       ]
@@ -3110,10 +3139,10 @@
         "version.txt"
       ]
     },
-    "System.Memory/4.5.4": {
-      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+    "System.Memory/4.5.5": {
+      "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
       "type": "package",
-      "path": "system.memory/4.5.4",
+      "path": "system.memory/4.5.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3127,7 +3156,7 @@
         "lib/netstandard2.0/System.Memory.dll",
         "lib/netstandard2.0/System.Memory.xml",
         "ref/netcoreapp2.1/_._",
-        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.4.5.5.nupkg.sha512",
         "system.memory.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -3149,6 +3178,36 @@
         "lib/netstandard2.0/System.Memory.Data.xml",
         "system.memory.data.1.0.2.nupkg.sha512",
         "system.memory.data.nuspec"
+      ]
+    },
+    "System.Numerics.Tensors/8.0.0": {
+      "sha512": "fhODzTe9ON9IzmRfyVeA6L8yXOciMtpq1YufkRVBliggcVKZE+XDxqIn46+yF4PWR6wNPuDpXtPpuY86VcKxUA==",
+      "type": "package",
+      "path": "system.numerics.tensors/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Numerics.Tensors.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Numerics.Tensors.targets",
+        "lib/net462/System.Numerics.Tensors.dll",
+        "lib/net462/System.Numerics.Tensors.xml",
+        "lib/net6.0/System.Numerics.Tensors.dll",
+        "lib/net6.0/System.Numerics.Tensors.xml",
+        "lib/net7.0/System.Numerics.Tensors.dll",
+        "lib/net7.0/System.Numerics.Tensors.xml",
+        "lib/net8.0/System.Numerics.Tensors.dll",
+        "lib/net8.0/System.Numerics.Tensors.xml",
+        "lib/netstandard2.0/System.Numerics.Tensors.dll",
+        "lib/netstandard2.0/System.Numerics.Tensors.xml",
+        "system.numerics.tensors.8.0.0.nupkg.sha512",
+        "system.numerics.tensors.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -4280,8 +4339,8 @@
       "Microsoft.EntityFrameworkCore >= 7.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
-      "Microsoft.ML >= 2.0.0",
-      "Microsoft.ML.Vision >= 2.0.0",
+      "Microsoft.ML >= 3.0.1",
+      "Microsoft.ML.Vision >= 3.0.1",
       "SciSharp.TensorFlow.Redist >= 2.3.1"
     ]
   },
@@ -4346,11 +4405,11 @@
           },
           "Microsoft.ML": {
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "[3.0.1, )"
           },
           "Microsoft.ML.Vision": {
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "[3.0.1, )"
           },
           "SciSharp.TensorFlow.Redist": {
             "target": "Package",

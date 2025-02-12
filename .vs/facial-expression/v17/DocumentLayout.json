@@ -11,12 +11,27 @@
       "RelativeMoniker": "D:0:0:{E8D5B92A-4DDE-4AA7-A03B-E2CC09475202}|facial-expression.WEB\\facial-expression.WEB.csproj|solutionrelative:facial-expression.web\\controllers\\retrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E8D5B92A-4DDE-4AA7-A03B-E2CC09475202}|facial-expression.WEB\\facial-expression.WEB.csproj|c:\\users\\usuario\\source\\repos\\face-expression-tesis\\facial-expression.web\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E8D5B92A-4DDE-4AA7-A03B-E2CC09475202}|facial-expression.WEB\\facial-expression.WEB.csproj|solutionrelative:facial-expression.web\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8D5B92A-4DDE-4AA7-A03B-E2CC09475202}|facial-expression.WEB\\facial-expression.WEB.csproj|c:\\users\\usuario\\source\\repos\\face-expression-tesis\\facial-expression.web\\mlmodel.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}",
       "RelativeMoniker": "D:0:0:{E8D5B92A-4DDE-4AA7-A03B-E2CC09475202}|facial-expression.WEB\\facial-expression.WEB.csproj|solutionrelative:facial-expression.web\\mlmodel.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\AppData\\Local\\SourceServer\\4c2ad83ce0cc2cb2f0c8801dd23657b9a571038cb0eb74ba255bc21f56d5cd48\\facial-expression.WEB\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8D5B92A-4DDE-4AA7-A03B-E2CC09475202}|facial-expression.WEB\\facial-expression.WEB.csproj|c:\\users\\usuario\\source\\repos\\face-expression-tesis\\facial-expression.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8D5B92A-4DDE-4AA7-A03B-E2CC09475202}|facial-expression.WEB\\facial-expression.WEB.csproj|solutionrelative:facial-expression.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D5B92A-4DDE-4AA7-A03B-E2CC09475202}|facial-expression.WEB\\facial-expression.WEB.csproj|c:\\users\\usuario\\source\\repos\\face-expression-tesis\\facial-expression.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E8D5B92A-4DDE-4AA7-A03B-E2CC09475202}|facial-expression.WEB\\facial-expression.WEB.csproj|solutionrelative:facial-expression.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D5B92A-4DDE-4AA7-A03B-E2CC09475202}|facial-expression.WEB\\facial-expression.WEB.csproj|c:\\users\\usuario\\source\\repos\\face-expression-tesis\\facial-expression.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E8D5B92A-4DDE-4AA7-A03B-E2CC09475202}|facial-expression.WEB\\facial-expression.WEB.csproj|solutionrelative:facial-expression.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +41,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 12,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\Program.cs",
+              "RelativeDocumentMoniker": "facial-expression.WEB\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\Program.cs",
+              "RelativeToolTip": "facial-expression.WEB\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T17:38:06.605Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -63,15 +92,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "MLModel.mbconfig",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\MLModel.mbconfig",
+              "RelativeDocumentMoniker": "facial-expression.WEB\\MLModel.mbconfig",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\MLModel.mbconfig",
+              "RelativeToolTip": "facial-expression.WEB\\MLModel.mbconfig",
+              "Icon": "7f5c38b0-f0bc-4551-a9a8-b4f467cc4670.000012|",
+              "WhenOpened": "2023-12-13T14:09:05.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\Program.cs",
-              "RelativeDocumentMoniker": "facial-expression.WEB\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\Program.cs",
-              "RelativeToolTip": "facial-expression.WEB\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIBJwB0AAAAUAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Usuario\\AppData\\Local\\SourceServer\\4c2ad83ce0cc2cb2f0c8801dd23657b9a571038cb0eb74ba255bc21f56d5cd48\\facial-expression.WEB\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\4c2ad83ce0cc2cb2f0c8801dd23657b9a571038cb0eb74ba255bc21f56d5cd48\\facial-expression.WEB\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\AppData\\Local\\SourceServer\\4c2ad83ce0cc2cb2f0c8801dd23657b9a571038cb0eb74ba255bc21f56d5cd48\\facial-expression.WEB\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\4c2ad83ce0cc2cb2f0c8801dd23657b9a571038cb0eb74ba255bc21f56d5cd48\\facial-expression.WEB\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T17:38:06.605Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-02-05T20:32:25.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "facial-expression.WEB\\wwwroot\\css\\styles.css",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "facial-expression.WEB\\wwwroot\\css\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-05T19:16:43.682Z",
               "EditorCaption": ""
             },
             {
@@ -80,9 +133,9 @@
               "Title": "Retro.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\Views\\Retro\\Retro.cshtml",
               "RelativeDocumentMoniker": "facial-expression.WEB\\Views\\Retro\\Retro.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\Views\\Retro\\Retro.cshtml",
-              "RelativeToolTip": "facial-expression.WEB\\Views\\Retro\\Retro.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAQAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\Views\\Retro\\Retro.cshtml*",
+              "RelativeToolTip": "facial-expression.WEB\\Views\\Retro\\Retro.cshtml*",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCIAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-01T17:38:16.988Z",
               "EditorCaption": ""
@@ -95,21 +148,35 @@
               "RelativeDocumentMoniker": "facial-expression.WEB\\Controllers\\RetroController.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\Controllers\\RetroController.cs",
               "RelativeToolTip": "facial-expression.WEB\\Controllers\\RetroController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwEgAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T19:16:51.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MLModel.mbconfig",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\MLModel.mbconfig",
-              "RelativeDocumentMoniker": "facial-expression.WEB\\MLModel.mbconfig",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\MLModel.mbconfig",
-              "RelativeToolTip": "facial-expression.WEB\\MLModel.mbconfig",
-              "Icon": "7f5c38b0-f0bc-4551-a9a8-b4f467cc4670.000012|",
-              "WhenOpened": "2023-12-13T14:09:05.425Z",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "facial-expression.WEB\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\Properties\\launchSettings.json",
+              "RelativeToolTip": "facial-expression.WEB\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-22T17:28:14.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "facial-expression.WEB\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\face-expression-tesis\\facial-expression.WEB\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "facial-expression.WEB\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-05T19:18:26.533Z",
               "EditorCaption": ""
             }
           ]

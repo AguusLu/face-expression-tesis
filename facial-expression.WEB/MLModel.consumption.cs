@@ -127,6 +127,5 @@ namespace Facial_expression_WEB
             var predEngine = PredictEngine.Value;
             return predEngine.Predict(input);
         }
-
     }
 }

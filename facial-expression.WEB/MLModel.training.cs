@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.ML;
 using Microsoft.ML.Data;
 using Microsoft.ML.Vision;
-using Microsoft.ML;
 
 namespace Facial_expression_WEB
 {
@@ -48,7 +48,7 @@ namespace Facial_expression_WEB
         }
 
         /// <summary>
-        /// Retrains model using the pipeline generated as part of the training process.
+        /// Retrain model using the pipeline generated as part of the training process.
         /// </summary>
         /// <param name="mlContext"></param>
         /// <param name="trainData"></param>
@@ -60,7 +60,6 @@ namespace Facial_expression_WEB
 
             return model;
         }
-
 
         /// <summary>
         /// build the pipeline that is used from model builder. Use this function to retrain model.

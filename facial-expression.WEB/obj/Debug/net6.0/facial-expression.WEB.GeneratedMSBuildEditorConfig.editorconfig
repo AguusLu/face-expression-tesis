@@ -18,26 +18,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Usuario\source\repos\face-expression-tesis\facial-expression.WEB
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Usuario/source/repos/face-expression-tesis/facial-expression.WEB/Views/Camara/Camara.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FtYXJhXENhbWFyYS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/source/repos/face-expression-tesis/facial-expression.WEB/Views/Imagen/Historial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuXEhpc3RvcmlhbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/source/repos/face-expression-tesis/facial-expression.WEB/Views/Imagen/Imagen.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuXEltYWdlbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/source/repos/face-expression-tesis/facial-expression.WEB/Views/Imagen/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuXFByaXZhY3kuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/source/repos/face-expression-tesis/facial-expression.WEB/Views/Inicio/Inicio.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5pY2lvXEluaWNpby5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Usuario/source/repos/face-expression-tesis/facial-expression.WEB/Views/Retro/Retro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0cm9cUmV0cm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
